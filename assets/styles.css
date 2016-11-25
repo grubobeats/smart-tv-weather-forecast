@@ -1,6 +1,6 @@
 /* Style for our header texts
 	* --------------------------------------- */
-h1{
+h1, h2{
     font-size: 5em;
     font-family: arial,helvetica;
     color: #fff;
@@ -59,4 +59,61 @@ h1{
 #video {
     width: 100%;
     height:100%;
+}
+
+#clock {
+    font-size: 16em;
+}
+
+.bg-temp {
+    color: #fff;
+    font-size: 6em;
+    display: inline-flex;
+    padding: 40px;
+}
+
+.bg-temp li {
+    padding: 20px;
+}
+
+.bg-icon i {
+    font-size: 5em
+}
+
+.bg-mini-icon i {
+    font-size: 5em;
+}
+
+.bg-mini-day,
+.bg-mini-temp {
+    color:white;
+    text-align: center;
+}
+
+.bg-mini-day {
+    font-size: 3em;
+}
+
+.bg-mini-temp {
+    font-size: 3em;
+}
+
+.under-time {
+    height: 4px;
+    width: 80%;
+    margin: 0 auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b7ae4+0,ffffff+32,ffffff+70,1b7ae4+100 */
+    background: #1b7ae4; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1b7ae4 0%, #ffffff 32%, #ffffff 70%, #1b7ae4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #1b7ae4 0%,#ffffff 32%,#ffffff 70%,#1b7ae4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #1b7ae4 0%,#ffffff 32%,#ffffff 70%,#1b7ae4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7ae4', endColorstr='#1b7ae4',GradientType=1 ); /* IE6-9 */
+}
+
+.divider {
+    margin: 2em 0;
+}
+
+.other-cities i {
+    color: #fff;
 }
