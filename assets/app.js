@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         verticalCentered: true,
-        sectionsColor: ['#1b7ae4', '#1159bd'],
+        // sectionsColor: ['#1b7ae4', '#1159bd'],
         keyboardScrolling: true,
         lazyLoading: true,
         dragAndMove: true,
