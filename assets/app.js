@@ -169,6 +169,7 @@ $(document).ready(function() {
         },
         error: function(error) {
             $("#belgrade").html('<p>'+error+'</p>');
+            location.reload();
         }
     });
 });
@@ -189,6 +190,7 @@ $.simpleWeather({
     },
     error: function(error) {
         $("#tokio").html('<p>'+error+'</p>');
+        location.reload();
     }
 });
 
@@ -209,6 +211,7 @@ $.simpleWeather({
     },
     error: function(error) {
         $("#moscow").html('<p>'+error+'</p>');
+        location.reload();
     }
 });
 
@@ -228,6 +231,7 @@ $.simpleWeather({
     },
     error: function(error) {
         $("#paris").html('<p>'+error+'</p>');
+        location.reload();
     }
 });
 
@@ -247,5 +251,6 @@ $.simpleWeather({
     },
     error: function(error) {
         $("#london").html('<p>'+error+'</p>');
+        location.reload();
     }
 });
